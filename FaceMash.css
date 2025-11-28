@@ -1,0 +1,79 @@
+body{
+    background-color:white}
+
+.MainDiv{
+    display: grid;
+    grid-template-columns: 1fr 70px 1fr;
+    align-items: center
+    }
+
+.MainTitle{
+    color: white;
+    margin: 0;
+    display: block;
+    padding: 10px;
+    background-color: rgb(150,0,0);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700}
+
+p{
+    margin: 0;
+    }
+
+.First_p{
+    font-size:28px;
+    margin-top: 14px;
+    text-align: center;
+    margin-bottom: 4px}
+
+.Second_p{
+    font-size:36px;
+    text-align: center;
+    margin-bottom: 16px;
+    }
+
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 80%
+    }
+
+#FirstDiv, #SecondDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#FirstDiv{
+    margin-left:35%}
+
+#SecondDiv{
+    margin-right:35%}
+
+#girl1{
+    height: 470px;
+    width: auto;
+    }
+
+#girl2{
+    height: 470px;
+    width: auto;
+    }
+
+#girl1Name , #girl2Name{
+    font-size: 28px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(106, 118, 207)}
+
+
+#girl1Title, #girl2Title{
+    font-size: 24px;
+    color: rgb(83, 102, 121);
+    text-align: center;}
+
+
